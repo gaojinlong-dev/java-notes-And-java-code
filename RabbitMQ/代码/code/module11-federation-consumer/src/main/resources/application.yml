@@ -1,0 +1,10 @@
+spring:
+  rabbitmq:
+    host: 192.168.47.100
+    port: 61000
+    username: guest
+    password: 123456
+    virtual-host: /
+    listener:
+      simple:
+        acknowledge-mode: manual # 把消息确认模式改为手动确认
